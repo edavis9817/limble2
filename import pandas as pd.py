@@ -144,6 +144,7 @@ if user_choice == "0":
         else:
             print("No matches found. Would you like to run the search again with a new word?")
             continue
+            
 elif user_choice == "1":
     machine = input("Enter the machine number to get work request information: ")
     solution = get_work_requests_for_machine(file_path, machine)
